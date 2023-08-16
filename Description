@@ -4,3 +4,14 @@ and the fee your internet and tv provider gives you when you permanently brick t
 Disclaimer 2: I am still a thinkerer and nowhere near any expert nor might this be the right way.
 Disclaimer 3: Only do it on devices you own and not to someone else's and knowall the risks when messing with the firmware, bootloader and linux os.
 
+
+
+
+
+With all that out of the way, lets begin!
+The arcadyan hmb2260 settop box was released in 2013 (ateast my model) by arcadyan technology and sold by your internet and tv provider to watch
+digital tv. The box runs on a broadcom Bcm7429 System on chip, A mips processor running at 1305mhz. Broadcom is one of the manufacturers who manufactures the most 
+Tv settopbox cpu chips used in all sorts of tv boxes. Broadcom is also used on the raspberry pi boards. The settopbox has 1024mb (1gb) ddr3 ram running at 796mhz. It has 512mb of nand flash 
+storing the operating system which is based on linux. The box runs on The broadcom Cfe bootloader. 
+To begin the "hacking" proces first connect a usb to ttl converter to the pins on the board (there should be a header)
+
